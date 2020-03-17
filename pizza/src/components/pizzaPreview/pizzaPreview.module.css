@@ -1,0 +1,238 @@
+.imageBox {
+	position: relative;
+	width: 50%;
+	height: 100%;
+}
+.image {
+	position: absolute;
+	width: 600px;
+	height: 600px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: url("../../../images/pizza.png");
+	background-size: cover;
+	background-position: center;
+	border: 8px solid yellow;
+	box-shadow: 5px 2px 8px red;
+}
+
+.Mushroom {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: url("../../../images/mushroomss.png");
+	background-size: cover;
+	animation: animationFrames ease 1s;
+	animation-iteration-count: 1;
+	transform-origin: 50% 50%;
+	animation-fill-mode: forwards; /*when the spec is finished*/
+}
+
+@keyframes animationFrames {
+	0% {
+		opacity: 0;
+		transform: translate(-1500px, 0px);
+	}
+	16% {
+		opacity: 0.4449026259342835;
+		transform: translate(-238px, -115px);
+	}
+	22% {
+		opacity: 0.6342244941294214;
+		transform: translate(-151px, -105px);
+	}
+	32% {
+		opacity: 0.8364257574040146;
+		transform: translate(-26px, -92px);
+	}
+	34% {
+		opacity: 0.8633920217548909;
+		transform: translate(-17px, -91px);
+	}
+	42% {
+		opacity: 0.9413018861035468;
+		transform: translate(-2px, -89px);
+	}
+	49% {
+		opacity: 0.979814811536269;
+		transform: translate(25px, -70px);
+	}
+	54% {
+		opacity: 0.9943188900388695;
+		transform: translate(31px, -58px);
+	}
+	58% {
+		opacity: 0.9994223884408706;
+		transform: translate(36px, -52px);
+	}
+	60% {
+		opacity: 1;
+		transform: translate(49px, -48px);
+	}
+	100% {
+		opacity: 1;
+		transform: translate(0px, -48px);
+	}
+}
+
+.Olive {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: url("../../../images/olives.png");
+	background-size: cover;
+}
+.GreenPepper {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: url("../../../images/papperGreens.png");
+	background-size: cover;
+	z-index: 100;
+}
+.Pepperoni {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: url("../../../images/sausagess.png");
+	background-size: cover;
+	animation: animationFrames ease 1s;
+	animation-iteration-count: 1;
+	transform-origin: 50% 50%;
+	animation-fill-mode: forwards; /*when the spec is finished*/
+}
+
+@keyframes animationFrames {
+	0% {
+		opacity: 0;
+		transform: translate(-1500px, 0px);
+	}
+	16% {
+		opacity: 0.4449026259342835;
+		transform: translate(-238px, -115px);
+	}
+	22% {
+		opacity: 0.6342244941294214;
+		transform: translate(-151px, -105px);
+	}
+	32% {
+		opacity: 0.8364257574040146;
+		transform: translate(-26px, -92px);
+	}
+	34% {
+		opacity: 0.8633920217548909;
+		transform: translate(-17px, -91px);
+	}
+	42% {
+		opacity: 0.9413018861035468;
+		transform: translate(-2px, -89px);
+	}
+	49% {
+		opacity: 0.979814811536269;
+		transform: translate(25px, -70px);
+	}
+	54% {
+		opacity: 0.9943188900388695;
+		transform: translate(31px, -58px);
+	}
+	58% {
+		opacity: 0.9994223884408706;
+		transform: translate(36px, -52px);
+	}
+	60% {
+		opacity: 1;
+		transform: translate(49px, -48px);
+	}
+	100% {
+		opacity: 1;
+		transform: translate(0px, -48px);
+	}
+}
+
+.Tomato {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: url("../../../images/tomato.png");
+	background-size: cover;
+	animation: animationFrames ease 1s;
+	animation-iteration-count: 1;
+	transform-origin: 50% 50%;
+	animation-fill-mode: forwards; /*when the spec is finished*/
+}
+
+@keyframes animationFrames {
+	0% {
+		opacity: 0;
+		transform: translate(-1500px, 0px);
+	}
+	16% {
+		opacity: 0.4449026259342835;
+		transform: translate(-238px, -115px);
+	}
+	22% {
+		opacity: 0.6342244941294214;
+		transform: translate(-151px, -105px);
+	}
+	32% {
+		opacity: 0.8364257574040146;
+		transform: translate(-26px, -92px);
+	}
+	34% {
+		opacity: 0.8633920217548909;
+		transform: translate(-17px, -91px);
+	}
+	42% {
+		opacity: 0.9413018861035468;
+		transform: translate(-2px, -89px);
+	}
+	49% {
+		opacity: 0.979814811536269;
+		transform: translate(25px, -70px);
+	}
+	54% {
+		opacity: 0.9943188900388695;
+		transform: translate(31px, -58px);
+	}
+	58% {
+		opacity: 0.9994223884408706;
+		transform: translate(36px, -52px);
+	}
+	60% {
+		opacity: 1;
+		transform: translate(49px, -48px);
+	}
+	100% {
+		opacity: 1;
+		transform: translate(0px, -48px);
+	}
+}
+
+.RedPepper {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: url("../../../images/papperRed.png");
+	z-index: 100;
+	background-size: cover;
+}
+
+@media (max-width: 1125px) {
+	.imageBox {
+		margin-top: 100px;
+		margin-bottom: 100px;
+	}
+}
