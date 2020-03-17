@@ -1,1 +1,2 @@
 # react-pizza
+This is a Front-end React application that allow users to interact with the UI to customize a pizza order. With the given toppings, users are able to pick certain if not all toppings and he application will calculate the pricing of the pizza as they interact with the different given option. This application uses material UI to style part of the component such as the radio and check boxes. Google Fonts was used for the fonts displayed in the UI. CSS module was used to style majority of the UI. React was used to create every component seen in the application.
