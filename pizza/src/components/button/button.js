@@ -1,7 +1,7 @@
 import React from 'react';
 import classes from './button.module.css';
-import ModalBox from '../../modal/modal';
-import Wrap from '../../../hoc/Wrap';
+import ModalBox from '../modal/modal';
+import Aux from '../../hoc/Aux';
 
 class Buttons extends React.Component {
 	//setting the price for each topping in state as well as the initial visibility of modal
@@ -45,7 +45,7 @@ class Buttons extends React.Component {
 
 	render() {
 		return (
-			<Wrap>
+			<Aux>
 				<div className={classes.Buttons}>
 					<h3 className={classes.Price}>Total Price: {this.totalPriceResult()}$</h3>
 					<button
@@ -63,7 +63,7 @@ class Buttons extends React.Component {
 						clicked={this.isVisibleModalBox}
 					/>
 				) : null}
-			</Wrap>
+			</Aux>
 		);
 	}
 }

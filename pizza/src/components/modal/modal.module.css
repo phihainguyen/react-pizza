@@ -1,0 +1,85 @@
+.body {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	z-index: 500;
+	transition: 2s;
+	border: 2px solid rgb(160, 101, 14);
+	box-shadow: 2px 3px 4px rgb(216, 228, 53);
+}
+.box {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 999;
+	padding: 20px;
+	background: rgba(255, 255, 255, .75);
+	min-width: 400px;
+}
+.summary {
+	padding: 10px;
+	background: rgba(55, 160, 202, 0.596);
+	width: 100%;
+	display: grid;
+	grid-template-areas: 'left right';
+	border-radius: 5px;
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+}
+.left {
+	grid-area: left;
+	display: flex;
+	flex-direction: column;
+}
+.right {
+	grid-area: right;
+	display: flex;
+	flex-direction: column;
+}
+.payment {
+	padding: 10px;
+	padding-top: 0px;
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	font-size: 18px;
+}
+.buttons {
+	display: grid;
+	grid-template-rows: repeat(2, 1fr);
+	grid-column-gap: 15px;
+}
+.cancel {
+	grid-row-start: 0;
+	grid-row-end: 1;
+	padding: 5px;
+	border: none;
+	border-radius: 4px;
+	font-weight: bold;
+	background: rgb(201, 20, 56);
+	color: #fff;
+	outline: none;
+	transition: .4s;
+}
+.cancel:hover {
+	box-shadow: 0px 0px 0px 5px rgba(208, 6, 92, .5);
+}
+.confirm {
+	grid-row-start: 0;
+	grid-row-end: 1;
+	padding: 5px;
+	border: none;
+	border-radius: 4px;
+	font-weight: bold;
+	background: rgb(17, 204, 70);
+	color: #262626;
+	outline: none;
+	transition: .4s;
+}
+.confirm:hover {
+	box-shadow: 0px 0px 0px 5px rgba(19, 226, 78, 0.5);
+}

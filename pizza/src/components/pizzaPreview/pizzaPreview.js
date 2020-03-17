@@ -1,10 +1,10 @@
 import React from 'react';
-import Wrap from '../../../hoc/Wrap';
+import Aux from '../../hoc/Aux';
 import classes from './pizzaPreview.module.css';
 
 // images
-import CheeseBased from '../../../images/cheeseBased.png';
-import TomatoBased from '../../../images/tomatoBased.png';
+import CheeseBased from '../../images/cheeseBased.png';
+import TomatoBased from '../../images/tomatoBased.png';
 
 class Preivew extends React.Component {
 	//styling for my pizza to make sure it all fits and placed correctly
@@ -74,7 +74,7 @@ class Preivew extends React.Component {
 
 	render() {
 		return (
-			<Wrap>
+			<Aux>
 				<div className={classes.imageBox}>
 					<div className={classes.image}>
 						{this.setBase()}
@@ -83,7 +83,7 @@ class Preivew extends React.Component {
 						{this.isVisible()}
 					</div>
 				</div>
-			</Wrap>
+			</Aux>
 		);
 	}
 }

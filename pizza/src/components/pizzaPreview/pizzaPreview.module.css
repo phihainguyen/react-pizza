@@ -10,7 +10,7 @@
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	background: url("../../../images/pizza.png");
+	background: url("../../images/pizza.png");
 	background-size: cover;
 	background-position: center;
 	border: 8px solid yellow;
@@ -23,7 +23,7 @@
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: url("../../../images/mushroomss.png");
+	background: url("../../images/mushroomss.png");
 	background-size: cover;
 	animation: animationFrames ease 1s;
 	animation-iteration-count: 1;
@@ -84,7 +84,7 @@
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: url("../../../images/olives.png");
+	background: url("../../images/olives.png");
 	background-size: cover;
 }
 .GreenPepper {
@@ -93,7 +93,7 @@
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: url("../../../images/papperGreens.png");
+	background: url("../../images/pepperGreens.png");
 	background-size: cover;
 	z-index: 100;
 }
@@ -103,7 +103,7 @@
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: url("../../../images/sausagess.png");
+	background: url("../../images/pepperoni.png");
 	background-size: cover;
 	animation: animationFrames ease 1s;
 	animation-iteration-count: 1;
@@ -164,7 +164,7 @@
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: url("../../../images/tomato.png");
+	background: url("../../images/tomato.png");
 	background-size: cover;
 	animation: animationFrames ease 1s;
 	animation-iteration-count: 1;
@@ -225,7 +225,7 @@
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: url("../../../images/papperRed.png");
+	background: url("../../images/pepperRed.png");
 	z-index: 100;
 	background-size: cover;
 }

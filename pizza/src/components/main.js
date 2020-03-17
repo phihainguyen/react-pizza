@@ -3,10 +3,8 @@ import classes from './main.module.css';
 import Radio from '@material-ui/core/Radio';
 
 import Checkbox from '@material-ui/core/Checkbox';
-import Preview from './preview/preview';
-import Buttons from './buttons/button';
-import { connect } from 'react-redux';
-import { updateRadio } from '../../actions/radio';
+import Preview from './pizzaPreview/pizzaPreview';
+import Buttons from './button//button';
 
 class Main extends React.Component {
 	//state created for each topping to set initial state of checkboxes and radio boxes
