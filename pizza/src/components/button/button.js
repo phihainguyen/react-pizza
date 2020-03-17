@@ -12,7 +12,7 @@ class Buttons extends React.Component {
 			{ greenPepper: 0.5 },
 			{ pepperoni: 2.0 },
 			{ tomato: 0.9 },
-			{ redPapper: 0.5 }
+			{ redPepper: 0.5 }
 		],
 		isVisible: false
 	};

@@ -7,17 +7,17 @@
 	width: 180px;
 	height: 40px;
 	line-height: 40px;
-	background: #262626;
-	color: #f2f2f2;
+	background: #d3d607;
+	color: #a10101;
 	border: none;
 	border-radius: 5.2px;
 	text-align: center;
 	transition: .35s;
 }
 .Button:hover {
-	-webkit-box-shadow: 0px 0px 0px 5px rgba(0, 0, 0, 0.35);
-	-moz-box-shadow: 0px 0px 0px 5px rgba(0, 0, 0, 0.35);
-	box-shadow: 0px 0px 0px 5px rgba(0, 0, 0, 0.35);
+	-webkit-box-shadow: 0px 0px 0px 5px rgba(253, 215, 1, 0.35);
+	-moz-box-shadow: 0px 0px 0px 5px rgba(250, 246, 4, 0.35);
+	box-shadow: 0px 0px 0px 5px rgba(232, 248, 3, 0.35);
 }
 
 .Price {

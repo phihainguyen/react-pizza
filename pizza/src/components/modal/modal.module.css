@@ -59,11 +59,13 @@
 	padding: 5px;
 	border: none;
 	border-radius: 4px;
+	font-size: 18px;
 	font-weight: bold;
 	background: rgb(201, 20, 56);
 	color: #fff;
 	outline: none;
 	transition: .4s;
+	height: 40px;
 }
 .cancel:hover {
 	box-shadow: 0px 0px 0px 5px rgba(208, 6, 92, .5);
@@ -75,6 +77,7 @@
 	border: none;
 	border-radius: 4px;
 	font-weight: bold;
+	font-size: 18px;
 	background: rgb(17, 204, 70);
 	color: #262626;
 	outline: none;
